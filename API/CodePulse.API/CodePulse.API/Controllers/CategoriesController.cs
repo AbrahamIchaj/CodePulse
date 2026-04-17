@@ -27,7 +27,6 @@ namespace CodePulse.API.Controllers
         public async Task<IActionResult> CreateCategory(CreateCategoryRequestDto request)
         {
            // Map DTO to Model
-
             var category = new Category
             {
                 Name = request.Name,
